@@ -1,14 +1,11 @@
 //
 //  Letter.swift
 //  dyslexia
-
 import Foundation
-
 struct Letter: Equatable, Hashable {
     var text: String = ""
     var point: Int = 0
 }
-
 extension Array<Letter?> {
     func prettyPrint() -> String {
         return self
@@ -17,7 +14,6 @@ extension Array<Letter?> {
             .joined(separator: "")
     }
 }
-
 extension Array<Letter> {
     func prettyPrint() -> String {
         return self
@@ -25,3 +21,4 @@ extension Array<Letter> {
             .joined(separator: "")
     }
 }
+
